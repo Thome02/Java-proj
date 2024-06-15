@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 
 public class Caraoucoroa {
     public static void main(String[] args) {
-        Random ale = new Random(1);
+        Random ale = new Random();
         int numeroDaEscolha = ale.nextInt() + 1;
         String tipo = JOptionPane.showInputDialog(null, "escolha entre: Cara ou Coroa", JOptionPane.QUESTION_MESSAGE);
         String numeroEscolhido = JOptionPane.showInputDialog(null, "Escolha um numero inteiro entre 1 e 2",JOptionPane.QUESTION_MESSAGE);
